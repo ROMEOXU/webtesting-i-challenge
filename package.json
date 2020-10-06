@@ -1,0 +1,24 @@
+{
+  "name": "webtesting-i-challenge",
+  "version": "1.0.0",
+  "description": "## Instroduction",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^26.5.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest",
+    "test:watch":"jest --watchAll"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ROMEOXU/webtesting-i-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ROMEOXU/webtesting-i-challenge/issues"
+  },
+  "homepage": "https://github.com/ROMEOXU/webtesting-i-challenge#readme"
+}
