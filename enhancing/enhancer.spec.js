@@ -46,5 +46,15 @@ describe('test enhancer function',()=>{
     expect(result.enhancement).toBe(19)
     })
 
+    it('stretch get',()=>{
+    const sample ={
+        name:'sample',
+        durability:100,
+        enhancement:10
+    }
+    const result = enhancer.get(sample)
     
+    expect(result.name).toBe('[+10] sample')
+    
+    })
 })
